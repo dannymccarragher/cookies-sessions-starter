@@ -1,0 +1,20 @@
+{
+  "name": "practice-with-cookies-sessions",
+  "version": "1.0.0",
+  "description": "Practice example with cookies & sessions",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pug": "^3.0.3"
+  }
+}
